@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head>
+<script>
+
+function random(){
+
+document.body.style.backgroundColor="#"+Math.floor(Math. random()*16777215).toString(16);
+} 
+setInterval(random,1000);
+</script>
+<style>
+h1
+{
+margin-left:38%;
+} 
+div{
+margin-left:40%;
+} 
+#button
+{
+margin-left:20%;
+} 
+</style>
+</head>
+<body>
+<h1 id="h" >Registration form </h1><div class="container">
+  <label>name</label>
+  <input type="text" name="name"><br><br>
+<label>age</label>
+  <input type="text" name="age"><br><br>
+<label>date of birth</label>
+  <input type="date" name="dob"><br><br>
+  <label>email</label>
+  <input type="text" name="email"><br><br>
+  <label>phone no</label> 
+  <input type="number" name="phno"><br><br>
+  <label>Gender</label>
+  <select>
+    <option>Male</option>
+    <option>Female</option>
+    <option>others</option>
+  </select><br><br>
+<label>Nationality</label>
+  <input type="text" name="nation"><br><br>
+<label>Martial status </label>
+  <input type="checkbox" name="martialstatus">single<input type="checkbox" name="martialstatus">married<br><br>
+<label>Address</label>
+  <textarea></textarea><br><br>
+<input 
+ type="submit" id="button" ></div>
